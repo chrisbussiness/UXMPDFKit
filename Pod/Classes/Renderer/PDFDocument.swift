@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objcMembers
 open class PDFDocument: NSObject, NSCoding {
     
     open var documentRef: CGPDFDocument?
